@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6b0aae0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+input[type="number"] {   /*lavainaestaespalaslineasjhdajsda*/
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #aae6d9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #aae6d9;
+    color: #130716;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {    /*esto es pa k se marque el boton al pasar el maus*/
+    background-color: #0056b3;
+}
+
